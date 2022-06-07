@@ -1,0 +1,26 @@
+{
+  "name": "data-structures-typescript",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarlonAEC/data-structures-typescript.git"
+  },
+  "keywords": [
+    "data-structure",
+    "algorithms"
+  ],
+  "author": "Marlon A. Espinosa Castaneiras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarlonAEC/data-structures-typescript/issues"
+  },
+  "homepage": "https://github.com/MarlonAEC/data-structures-typescript#readme",
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
+  }
+}
