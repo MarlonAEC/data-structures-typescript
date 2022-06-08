@@ -17,7 +17,7 @@ export default class Queue<Type> {
 
   /**
    * Return the first element of the queue.
-   * @return {Type} The first element in the queue.
+   * @return {Type | undefined} The first element in the queue.
    */
   front() {
     return this.elements[0];
