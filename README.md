@@ -1,6 +1,9 @@
 # data-structures-typescript
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT) [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest) [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest)
@@ -14,7 +17,9 @@ This repo was created to practice algorithms and Data Structures implementations
 
 ### Data Structures
 
-1. Queue
+1. [Queue](/src/Queue/README.md)
+2. [Pair](/src/Pair/README.md)
+3. [Stack](/src/Stack/README.md)
 
 ### Algorithms
 
