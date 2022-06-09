@@ -1,4 +1,4 @@
-import Queue from './Queue/Queue';
-import Pair from './Pair/Pair';
+import Queue from './Queue';
+import Pair from './Pair';
 
 export { Queue, Pair };

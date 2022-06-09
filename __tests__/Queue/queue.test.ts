@@ -1,4 +1,4 @@
-import Queue from '../../src/Queue/Queue';
+import Queue from '../../src/Queue';
 import { TestObjectType } from '../../src/@types/utils';
 
 test('Testing Queue not empty', () => {

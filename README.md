@@ -19,6 +19,7 @@ This repo was created to practice algorithms and Data Structures implementations
 
 1. [Queue](/src/Queue/README.md)
 2. [Pair](/src/Pair/README.md)
+3. [Stack](/src/Stack/README.md)
 
 ### Algorithms
 

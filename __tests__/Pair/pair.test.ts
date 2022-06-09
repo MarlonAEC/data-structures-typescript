@@ -1,4 +1,4 @@
-import Pair from '../../src/Pair/Pair';
+import Pair from '../../src/Pair';
 
 test('Testing Pair creation', () => {
   const pair = new Pair<number, string>(1, 'value1');
