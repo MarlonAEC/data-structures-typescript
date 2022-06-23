@@ -1,3 +1,10 @@
+## [3.0.4](https://github.com/MarlonAEC/data-structures-typescript/compare/v3.0.3...v3.0.4) (2022-06-23)
+
+
+### Fix
+
+* Corrected import for Linked List (#20) ([f388c4e](https://github.com/MarlonAEC/data-structures-typescript/commit/f388c4e74ff4a0c7ccf6fdd6d9d72b27a8bf8526)), closes [#20](https://github.com/MarlonAEC/data-structures-typescript/issues/20) [#15](https://github.com/MarlonAEC/data-structures-typescript/issues/15) [#16](https://github.com/MarlonAEC/data-structures-typescript/issues/16) [#18](https://github.com/MarlonAEC/data-structures-typescript/issues/18)
+
 ## [3.0.3](https://github.com/MarlonAEC/data-structures-typescript/compare/v3.0.2...v3.0.3) (2022-06-22)
 
 
