@@ -27,8 +27,12 @@
     "url": "git+https://github.com/MarlonAEC/data-structures-typescript.git"
   },
   "keywords": [
-    "data-structure",
-    "algorithms"
+    "Data Structures",
+    "Algorithms",
+    "Queue",
+    "Linked list",
+    "Pair",
+    "Stack"
   ],
   "author": "Marlon A. Espinosa Castaneiras",
   "license": "MIT",
