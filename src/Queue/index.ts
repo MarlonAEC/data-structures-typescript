@@ -1,54 +1,70 @@
+export interface QueueBase<Type> {
+  enqueue: (item: Type) => void;
+  dequeue: () => Type | undefined;
+  front: () => Type | undefined;
+  rear: () => Type | undefined;
+  isEmpty: () => boolean;
+  size: () => number;
+}
+
 /**
- * The Queue class is a data structure that allows you
+ * Queue class that implements the ADT queue.
+ * A queue is a data structure that allows you
  * to add elements to the end of the queue and
  * remove elements from the front of the queue
+ * in a FIFO (first in first out) style.
  * @class Queue
  */
-export default class Queue<Type> {
-  elements: Type[];
+export default class Queue<Type> implements QueueBase<Type> {
+  private elements: Type[] = [];
 
   /**
-   * The constructor for the Queue class.
-   * @constructor
+   * Adds an element to the end of the queue.
+   * @param {type} element - New element to add to the queue.
    */
-  constructor() {
-    this.elements = [];
+  enqueue(element: Type): void {
+    this.elements.push(element);
   }
 
   /**
-   * Return the first element of the queue.
-   * @return {Type | undefined} The first element in the queue.
+   * Removes the first element from the queue and returns it.
+   * If the queue is empty, undefined is returned and the
+   * queque is not modified.
+   * @return {type} Type | undefinded
    */
-  front() {
+  dequeue(): Type | undefined {
+    return this.elements.shift();
+  }
+
+  /**
+   * Returns the first element of the queue.
+   * @return {type} Type | undefinded
+   */
+  front(): Type | undefined {
     return this.elements[0];
   }
 
   /**
-   * The push function adds a value to the end of the queue.
-   * @param {Type} value - The value to add to the queue.
+   * Returns the last element of the queue.
+   * @return {type} Type | undefinded
    */
-  push(value: Type): void {
-    this.elements[this.elements.length] = value;
+  rear(): Type | undefined {
+    return this.elements[this.elements.length - 1];
   }
 
   /**
-   * If the queue is empty, throw an error, otherwise delete
-   * the first element in the queue
-   */
-  pop(): void | never {
-    if (this.isEmpty()) {
-      throw new Error('The queue is empty  there is nothing to pop.');
-    }
-    this.elements.shift();
-  }
-
-  /**
-   * If the length of the elements array is equal to zero,
-   * return true, otherwise return false
-   * @return {boolean}A boolean value.
+   * Returns true is the queue is empty, otherwise
+   * returns false.
+   * @return {type} boolean
    */
   isEmpty(): boolean {
-    if (this.elements.length === 0) return true;
-    return false;
+    return this.elements.length === 0 ? true : false;
+  }
+  /**
+   * Returns the number of elements in the queue.
+   * @return {type} number
+   */
+  size(): number {
+    return this.elements.length;
   }
 }
