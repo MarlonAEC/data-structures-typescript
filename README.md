@@ -7,9 +7,7 @@ This repo aims to give to the community a package of Data Structures implementat
 https://www.npmjs.com/package/data-structures-typescript
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT) [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest) ![Dependent repos (via libraries.io)](https://img.shields.io/librariesio/dependent-repos/npm/data-structures-typescript) [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest)
@@ -39,6 +37,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://marlonaec.github.io/MarlonAEC/"><img src="https://avatars.githubusercontent.com/u/50201790?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Marlon Espinosa</b></sub></a><br /><a href="https://github.com/MarlonAEC/data-structures-typescript/commits?author=MarlonAEC" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/rizzrark"><img src="https://avatars.githubusercontent.com/u/75039059?v=4?s=100" width="100px;" alt=""/><br /><sub><b>rizzrark</b></sub></a><br /><a href="https://github.com/MarlonAEC/data-structures-typescript/commits?author=rizzrark" title="Code">💻</a></td>
   </tr>
 </table>
 
